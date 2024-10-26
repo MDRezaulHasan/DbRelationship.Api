@@ -1,0 +1,4 @@
+ dotnet add DbRelationship.Api package Microsoft.EntityFrameworkCore.Sqlite
+ dotnet add DbRelationship.Api package Microsoft.EntityFrameworkCore.Design
+ dotnet ef migrations add "initial-migration" --project DbRelationship.Api
+ dotnet ef database update --project DbRelationship.Api

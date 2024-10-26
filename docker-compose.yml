@@ -1,0 +1,6 @@
+﻿services:
+  dbrelationship.api:
+    image: dbrelationship.api
+    build:
+      context: .
+      dockerfile: DbRelationship.Api/Dockerfile
